@@ -6,7 +6,3 @@
 
 - 無料アクセスカウンター
 	- https://www.free-counter.jp/
-
-## Special Thanks
-
-- 稲垣ごう
