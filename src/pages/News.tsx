@@ -45,10 +45,10 @@ export default function News(): ReactElement {
 					<li>generative な映像制作</li>
 					<li>GLSL とか</li>
 				</ul>
-				<img src="./images/pics2762.gif" />
+				<img src="../pics2762.gif" />
 				<p>常に工事中です。ご迷惑おかけします。</p>
-				<img src="./images/pics2762.gif" />
-				<img src="./images/dancing_baby.gif" alt="踊る赤ちゃん" />
+				<img src="../pics2762.gif" />
+				<img src="../dancing_baby.gif" alt="踊る赤ちゃん" />
 			</div>
 		</>
 	)
