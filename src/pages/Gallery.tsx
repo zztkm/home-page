@@ -20,7 +20,7 @@ export default function Gallery(): ReactElement {
 						</div>
 					</div>
 					<div className="window-body">
-						<img src="./images/gallery/hyou-1-bg-waterblue.jpg" />
+						<img src="/gallery/hyou-1-bg-waterblue.jpg" />
 					</div>
 				</div>
 				<div className="window" style={{ width: "315px" }}>
@@ -33,7 +33,7 @@ export default function Gallery(): ReactElement {
 						</div>
 					</div>
 					<div className="window-body">
-						<img src="./images/gallery/kumori-suisen.png" />
+						<img src="/gallery/kumori-suisen.png" />
 					</div>
 				</div>
 			</div>

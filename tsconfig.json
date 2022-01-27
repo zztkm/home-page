@@ -21,9 +21,11 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "./src",
     "**/*.ts",
     "**/*.tsx",
     "node_modules/vite-plugin-pwa/client.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
