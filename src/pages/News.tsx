@@ -1,6 +1,8 @@
 import { ReactElement, CSSProperties } from "react";
 import Head from "../components/Head";
 import "98.css"
+import picsImgUrl from '/pics2762.gif'
+import dancingBaby from '/dancing_baby.gif'
 
 const windowStyle: CSSProperties = {
 	margin: "32px",
@@ -45,10 +47,10 @@ export default function News(): ReactElement {
 					<li>generative な映像制作</li>
 					<li>GLSL とか</li>
 				</ul>
-				<img src="../pics2762.gif" />
+				<img src={picsImgUrl} />
 				<p>常に工事中です。ご迷惑おかけします。</p>
-				<img src="../pics2762.gif" />
-				<img src="../dancing_baby.gif" alt="踊る赤ちゃん" />
+				<img src={picsImgUrl} />
+				<img src={dancingBaby} alt="踊る赤ちゃん" />
 			</div>
 		</>
 	)
