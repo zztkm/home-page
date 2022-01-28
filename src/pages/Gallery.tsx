@@ -2,6 +2,9 @@ import { ReactElement } from "react";
 import Head from "../components/Head";
 import "98.css"
 
+import hyouBgWaterBlue from '../../public/hyou-1-bg-waterblue.jpg'
+import kumoriSuisen from '../../public/kumori-suisen.png'
+
 export default function Gallery(): ReactElement {
 	return (
 		<>
@@ -20,7 +23,7 @@ export default function Gallery(): ReactElement {
 						</div>
 					</div>
 					<div className="window-body">
-						<img src="./hyou-1-bg-waterblue.jpg" />
+						<img src={hyouBgWaterBlue} />
 					</div>
 				</div>
 				<div className="window" style={{ width: "315px" }}>
@@ -33,7 +36,7 @@ export default function Gallery(): ReactElement {
 						</div>
 					</div>
 					<div className="window-body">
-						<img src="./kumori-suisen.png" />
+						<img src={kumoriSuisen} />
 					</div>
 				</div>
 			</div>
