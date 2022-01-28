@@ -1,8 +1,8 @@
 import { ReactElement, CSSProperties } from "react";
 import Head from "../components/Head";
 import "98.css"
-import picsImgUrl from '../../public/pics2762.gif'
-import dancingBaby from '../../public/dancing_baby.gif'
+import picsImgUrl from '/pics2762.gif'
+import dancingBaby from '/dancing_baby.gif'
 
 const windowStyle: CSSProperties = {
 	margin: "32px",

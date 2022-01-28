@@ -2,8 +2,8 @@ import { ReactElement } from "react";
 import Head from "../components/Head";
 import "98.css"
 
-import hyouBgWaterBlue from '../../public/hyou-1-bg-waterblue.jpg'
-import kumoriSuisen from '../../public/kumori-suisen.png'
+import hyouBgWaterBlue from '/hyou-1-bg-waterblue.jpg'
+import kumoriSuisen from '/kumori-suisen.png'
 
 export default function Gallery(): ReactElement {
 	return (
