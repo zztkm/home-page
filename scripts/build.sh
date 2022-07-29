@@ -2,9 +2,13 @@
 
 REPO="vss-repo"
 
-# build vss
 git clone https://github.com/zztkm/vss.git $REPO
 cd $REPO
+
+# Install deps
+v install markdown
+
+# build vss
 v vss.v
 
 # copy vss to project root
