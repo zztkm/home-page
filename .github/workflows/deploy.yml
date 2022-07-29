@@ -22,7 +22,6 @@ jobs:
 
       # Run your project's build step
       - name: Build
-        uses:
         run: ./scripts/build.sh
 
       - name: Publish
