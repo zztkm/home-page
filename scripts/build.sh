@@ -21,6 +21,6 @@ cd ..
 rm -rf $REPO
 
 # build website
-./vss
+./vss build
 
 rm vss
