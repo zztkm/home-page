@@ -9,7 +9,7 @@ cd $REPO
 v install markdown
 
 # build vss
-v vss.v
+v . -o vss
 
 # copy vss to project root
 cp ./vss ..
