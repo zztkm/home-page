@@ -2,6 +2,10 @@
 
 おれのホームページ
 
+## Theme color
+
+https://coolors.co/palette/227c9d-17c3b2-ffcb77-fef9ef-fe6d73
+
 ## Build website
 
 ```shell
