@@ -1,10 +1,12 @@
 # Open Sea
 
+![icon](images/zztkm-icon.png)
+
 Be a hacker.
 
-- [GitHub](https://github.com/zztkm)
+- [Blog](https://blog.tsurutatakumi.info/)
 - [Twitter](https://twitter.com/zztkm)
+- [GitHub](https://github.com/zztkm)
 - [Scrapbox](https://scrapbox.io/zztkm/)
 - [OpenProcessing](https://openprocessing.org/user/283509/)
-- [Blog](https://blog.tsurutatakumi.info/)
 
