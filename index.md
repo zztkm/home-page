@@ -9,4 +9,4 @@ Be a hacker.
 - [GitHub](https://github.com/zztkm)
 - [Scrapbox](https://scrapbox.io/zztkm/)
 - [OpenProcessing](https://openprocessing.org/user/283509/)
-
+- [Darts memo](https://darts.tsurutatakumi.info/)
