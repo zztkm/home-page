@@ -12,17 +12,14 @@ jobs:
       deployments: write
     name: Deploy to Cloudflare Pages
     steps:
-      - name: Install V
-        uses: vlang/setup-v@v1
-        with:
-          check-latest: true
-
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Run your project's build step
-      - name: Build
-        run: ./scripts/build.sh
+      - name: Install vss
+        run: make setup
+
+      - name: Build with vss
+        run: make build
 
       - name: Publish
         uses: cloudflare/pages-action@1
