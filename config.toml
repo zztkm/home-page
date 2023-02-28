@@ -1,2 +1,6 @@
-title = "Open Sea"
-description = "Takumi Tsuruta's home page"
+title = "Veltiosoft"
+description = "Be a good hacker & darts player."
+base_url = 'https://tsurutatakumi.info/'
+
+[build]
+ignore_files = ["README.md"]

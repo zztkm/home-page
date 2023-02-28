@@ -1,9 +1,10 @@
-# Open Sea
-
 ![icon](images/zztkm-icon.png)
 
-Be a hacker.
+## Pages
 
+- [About Me](/about)
+
+## Links
 - [Blog](https://blog.tsurutatakumi.info/)
 - [Twitter](https://twitter.com/zztkm)
 - [GitHub](https://github.com/zztkm)
