@@ -1,5 +1,5 @@
 **Mail**
-takumi.basket1682[@]gmail.com
+zztkm[@]tsurutatakumi.info
 
 **SNS**
 Twitter
