@@ -172,4 +172,4 @@ Grafanaのダッシュボードはこんな感じ
 - [inm](https://github.com/zztkm/inm): inventory manager
 - [Kiboshin Kingdom](https://kiboshin.xyz)
 
-</section><section>
+</section>
