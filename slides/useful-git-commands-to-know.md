@@ -1,16 +1,12 @@
----
-theme: gaia
-_class: lead
-paginate: true
-backgroundColor: #fff
-# backgroundImage: url('https://marp.app/assets/hero-background.svg')
----
+<section>
 
 # 知ってると便利な git command の紹介
 
 ### +α 開発プラクティスの共有
 
----
+</section>
+<section>
+
 # 📖 概要
 
 普段 VS Code などの GUI から git を操作している人に向けて、知っていると便利な git command を紹介します。
@@ -21,13 +17,15 @@ backgroundColor: #fff
 厳密にいうとちょっと違うみたいなやつも用途に合わせて説明を書いています。
 (working tree とか index とかを出さないようにしています)
 
----
+</section>
+<section>
+
 ## 🎯 対象
 
 - 普段 vscode で git を操作している人
 - cli に慣れていない人
 
----
+</section><section>
 
 # 🚨 今回紹介しないこと
 
@@ -38,7 +36,7 @@ backgroundColor: #fff
 
 https://git-scm.com/
 
----
+</section><section>
 
 # 🔖 目次
 
@@ -50,7 +48,7 @@ https://git-scm.com/
 	- git commit
 1. 現在の変更状態を確認したい
 	- git status
----
+</section><section>
 
 # 🔖 目次2
 
@@ -63,13 +61,13 @@ https://git-scm.com/
 1. 特定の commit から branch を作成したい
 	- git checkout <commit> -b <new branch>
 
----
+</section><section>
 
 # 🔖 目次3
 
 1. 個人的な Git + GitHub 開発プラクティス
 
----
+</section><section>
 
 # リポジトリの初期化
 
@@ -87,7 +85,8 @@ git init
 
 https://git-scm.com/docs/git-init
 
----
+</section><section>
+
 # 変更のステージ
 
 <path> に変更したいファイルPATHを指定します
@@ -102,7 +101,8 @@ git add -A
 
 https://git-scm.com/docs/git-add
 
----
+</section><section>
+
 # 変更を commit する
 
 以下のコマンドを実行するとデフォルトのエディターが開いて commit メッセージを編集することができます
@@ -117,7 +117,7 @@ git commit -m <message>
 
 https://git-scm.com/docs/git-commit
 
----
+</section><section>
 
 # 現在の変更状態を確認したい
 
@@ -136,7 +136,8 @@ Changes not staged for commit:
 ```
 https://git-scm.com/docs/git-status
 
----
+</section><section>
+
 # commit 履歴を見たい
 
 ```
@@ -154,7 +155,7 @@ b712382 first
 
 https://git-scm.com/docs/git-log
 
----
+</section><section>
 
 # 変更のステージングを取り消したい
 
@@ -171,7 +172,7 @@ git restore --staged .
 git restore <path>
 ```
 
----
+</section><section>
 
 # 前回の commit を上書きしたい
 
@@ -188,7 +189,7 @@ commit メッセージだけ修正したい
 git commit --amend -m "誤字を修正"
 ```
 
----
+</section><section>
 
 # 特定の commit から branch を作成したい
 
@@ -196,7 +197,7 @@ git commit --amend -m "誤字を修正"
 git checkout <commit> -b <new branch>
 ```
 
----
+</section><section>
 
 # 個人的な Git + GitHub 開発プラクティス
 
@@ -204,7 +205,7 @@ git checkout <commit> -b <new branch>
 - Pull Request (出す側)
 - Pull Request (見る側)
 
----
+</section><section>
 
 # commit
 
@@ -221,7 +222,7 @@ git checkout <commit> -b <new branch>
 ```
 引用: [nice.dev](https://github.landscape.co.jp/pages/DBA/nice.dev/docs-for-developer/#commit-message-%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88)
 
----
+</section><section>
 
 # Pull Request (出す側)
 
@@ -235,7 +236,7 @@ git checkout <commit> -b <new branch>
 	- `git rebase -i` とかが使える
 		- [初心者でもわかる！リベースの使い方を解説します](https://liginc.co.jp/web/tool/79390)
 
----
+</section><section>
 
 # Pull Request (見る側)
 
@@ -248,13 +249,13 @@ git checkout <commit> -b <new branch>
 - 友好的な態度でレビューする
 	- テキストは口頭よりもきつめに感じてしまう場合があるので優しめにコメントを書く
 
----
+</section><section>
 
 # その他参考
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">コードには How<br>テストコードには What<br>コミットログには Why<br>コードコメントには Why not<br><br>を書こうという話をした</p>&mdash; Takuto Wada (@t_wada) <a href="https://twitter.com/t_wada/status/904916106153828352?ref_src=twsrc%5Etfw">September 5, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
----
+</section><section>
 
 # その他参考
 
@@ -263,3 +264,5 @@ git checkout <commit> -b <new branch>
 - [プログラマが知るべき97のこと/コードレビュー - Wikisource](https://ja.wikisource.org/wiki/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%8C%E7%9F%A5%E3%82%8B%E3%81%B9%E3%81%8D97%E3%81%AE%E3%81%93%E3%81%A8/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC)
 - [git rebaseの具体的なメリット](https://zenn.dev/tana0102/articles/475d8952933af6)
 - [やりなおしGit (re-git)](https://zenn.dev/mebiusbox/books/d7e6b96da51ed8)
+
+</section>

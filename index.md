@@ -4,6 +4,11 @@
 
 - [About Me](/about)
 
+## Slides
+
+- [知ってると便利な git command の紹介](/slides/useful-git-commands-to-know)
+- [Docker で Minecraft サーバーを立てる](/slides/docker-minecraft-server)
+
 ## Links
 - [Blog](https://blog.tsurutatakumi.info/)
 - [Twitter](https://twitter.com/zztkm)

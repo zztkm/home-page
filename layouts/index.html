@@ -1,110 +1,113 @@
 <!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
-    <title>@title</title>
-    <meta name="description" content="@description" />
-    <!-- CSS IMPORT -->
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/setuptools_vhs.css" />
-    <link rel="stylesheet" href="styles/setuptools_style.css" />
-    <!-- GOOGLE FONT IMPORT FROM CDN -->
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
-    <!-- VIEWPORT FOR RESPONSIVE -->
-    <meta name="viewport" content="width=device-width" />
-</head>
-<body>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>@title</title>
+        <base href="@base_url"> 
+        <meta name="description" content="@description" />
+        <!-- CSS IMPORT -->
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/setuptools_vhs.css" />
+        <link rel="stylesheet" href="styles/setuptools_style.css" />
+        <!-- GOOGLE FONT IMPORT FROM CDN -->
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+        <!-- VIEWPORT FOR RESPONSIVE -->
+        <meta name="viewport" content="width=device-width" />
+    </head>
+    <body>
 
-    <!-- BACKGROUND LINE NOISE -->
-    <div class="lines"></div>
+        <!-- BACKGROUND LINE NOISE -->
+        <div class="lines"></div>
 
-    <!-- LEFT TOP DOT ICON, IF YOU WANT EDIT SEE "dot.css" -->
-    <div class="cc_cat_dot_sut"></div>
+        <!-- LEFT TOP DOT ICON, IF YOU WANT EDIT SEE "dot.css" -->
+        <div class="cc_cat_dot_sut"></div>
 
 
-    <!-- MAIN RGB NOISE -->
-    <div class="main">
-        <div class="noise"></div>
-        <div class="vhs">
+        <!-- MAIN RGB NOISE -->
+        <div class="main">
+            <div class="noise"></div>
+            <div class="vhs">
 
-            <!-- TOP INFORMATION 
-            <div class="doggo">*</div>
-            <span class="typew"><a href="https://twitter.com/pstchstd/status/1580928132051529728"
-                    target="_blank">Zaishen</a>, can you hear me?<br>Theme: <a href="https://setuptools.pypa.io/en/latest/" target="_blank">SETUPTOOLS</a>
-            </span>
-            -->
+                <!-- TOP INFORMATION 
+                <div class="doggo">*</div>
+                <span class="typew"><a href="https://twitter.com/pstchstd/status/1580928132051529728"
+                        target="_blank">Zaishen</a>, can you hear me?<br>Theme: <a href="https://setuptools.pypa.io/en/latest/" target="_blank">SETUPTOOLS</a>
+                </span>
+                -->
 
-            <h1>
-                <a id="title" href="/">@title</a>
-            </h1>
+                <h1>
+                    <a id="title" href="/">@title</a>
+                </h1>
 
-            <h2 class="typek">@description
-            </h2>
-            <!-- SOCIAL ICONS USING FONT AWESOME -->
-            <ul class="social">
-                <li>
-                    <a id="social" href="https://twitter.com/zztkm" target="_blank"><i
-                            class="fa-brands fa-twitter fa-shake"></i></a>
-                </li>
-                <li>
-                    <a id="social" href="https://github.com/zztkm" target="_blank">
-                        <i class="fa-brands fa-github fa-shake"></i></a>
-                </li>
-                <li>
-                    <a id="social" href="/contact"><i class="fa-regular fa-envelope fa-shake"></i></a>
-                </li>
-            </ul>
+                <h2 class="typek">@description
+                </h2>
+                <!-- SOCIAL ICONS USING FONT AWESOME -->
+                <ul class="social">
+                    <li>
+                        <a id="social" href="https://twitter.com/zztkm" target="_blank"><i
+                                class="fa-brands fa-twitter fa-shake"></i></a>
+                    </li>
+                    <li>
+                        <a id="social" href="https://github.com/zztkm" target="_blank">
+                            <i class="fa-brands fa-github fa-shake"></i></a>
+                    </li>
+                    <li>
+                        <a id="social" href="/contact"><i class="fa-regular fa-envelope fa-shake"></i></a>
+                    </li>
+                </ul>
 
-            <!-- @CONTENTS -->
-            @contents
-            <!-- /@CONTENTS -->
+                <!-- @CONTENTS -->
+                @contents
+                <!-- /@CONTENTS -->
 
-            <!-- JQUERY IMPORT FROM CDN HOSTED BY GOOGLE -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <!-- JQUERY IMPORT FROM CDN HOSTED BY GOOGLE -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-            <!-- TYPEWRITER EFFECT JS IMPORT -->
-            <script src="./js/t.js"></script>
-            <!-- <script src="https://pistachiostudio.github.io/pistachio-on-vss/js/t.js"></script> -->
+                <!-- TYPEWRITER EFFECT JS IMPORT -->
+                <script src="./js/t.js"></script>
+                <!-- <script src="https://pistachiostudio.github.io/pistachio-on-vss/js/t.js"></script> -->
 
-            <!-- H2 CLASS "typek" TYPEWRITER EFFECT SETTINGS -->
-            <script>
-                $(function () {
-                    $(".typek").t({
-                        caret: '<span style="color:hotpink;">•</span>',
-                        speed: 25,
-                        beep: false,
-                        mistype: 10,
-                        locale: "en",
-                        speed_vary: true,
-                        blink: true,
-                        delay: 1.4,
+                <!-- H2 CLASS "typek" TYPEWRITER EFFECT SETTINGS -->
+                <script>
+                    $(function () {
+                        $(".typek").t({
+                            caret: '<span style="color:hotpink;">•</span>',
+                            speed: 25,
+                            beep: false,
+                            mistype: 10,
+                            locale: "en",
+                            speed_vary: true,
+                            blink: true,
+                            delay: 1.4,
+                        });
                     });
-                });
-            </script>
+                </script>
 
-            <!-- SPAN CLASS "typew" TYPEWRITER EFFECT SETTINGS
-    (TOP MESSAGE) -->
-            <script>
-                $(function () {
-                    $(".typew").t({
-                        caret: '<span style="color:magenta;">]</span>',
-                        speed: 10,
-                        beep: false,
-                        mistype: false,
-                        locale: "en",
-                        speed_vary: true,
-                        blink: true,
-                        delay: 0.1,
+                <!-- SPAN CLASS "typew" TYPEWRITER EFFECT SETTINGS
+        (TOP MESSAGE) -->
+                <script>
+                    $(function () {
+                        $(".typew").t({
+                            caret: '<span style="color:magenta;">]</span>',
+                            speed: 10,
+                            beep: false,
+                            mistype: false,
+                            locale: "en",
+                            speed_vary: true,
+                            blink: true,
+                            delay: 0.1,
+                        });
                     });
-                });
-            </script>
+                </script>
 
-	<div class="footer">
-        Acknowledgments: <a href="https://github.com/vssio" target="_blank">VSS</a>,
-        GitHub repository: <a href="https://github.com/zztkm/tsurutatakumi.info" target="_blank">tsurutatakumi.info</a></br>
-        Hosted by: <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a></br>
-    </div>
-
+    	<div class="footer">
+            Acknowledgments: <a href="https://github.com/vssio" target="_blank">VSS</a>,
+            GitHub repository: <a href="https://github.com/zztkm/tsurutatakumi.info" target="_blank">tsurutatakumi.info</a></br>
+            Hosted by: <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a></br>
         </div>
-    </div>
-</body>
+
+            </div>
+        </div>
+    </body>
+</html>
