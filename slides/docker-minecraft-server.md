@@ -130,7 +130,8 @@ Grafanaのダッシュボードはこんな感じ
 
 - バックアップがでかくなっていくのでVPSのSSDを食いつぶしやがるのでどうにかしたい
 - チート対策
-- その他色々
+- その他色々 GitHub Issues に書いてある
+    - https://github.com/pistachiostudio/genkai-mc-server/issues
 
 </section><section>
 
