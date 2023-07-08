@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>@title</title>
+        <base href="@base_url"> 
+        <meta name="description" content="@description" />
+        <!-- GOOGLE FONT IMPORT FROM CDN -->
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+        <!-- VIEWPORT FOR RESPONSIVE -->
+        <meta name="viewport" content="width=device-width" />
+    </head>
+    <body>
+        <script>
+          const importObject = {
+            imports: {
+              imported_func: arg => {
+                console.log(arg);
+              }
+            }
+          };
+
+          fetch("wasm/simple.wasm").then(response =>
+            response.arrayBuffer()
+          ).then(bytes =>
+            WebAssembly.instantiate(bytes, importObject)
+          ).then(result => {
+            result.instance.exports.exported_func();
+          });
+        </script>
+    </body>
+</html>
