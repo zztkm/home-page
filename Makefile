@@ -9,7 +9,7 @@ setup: clean
 
 .PHONY: build
 build:
-	vss build
+	./vss build
 
 .PHONY: build-wasm
 build-wasm:
