@@ -1,0 +1,5 @@
+name = "tsurutatakumi-info"
+compatibility_date = "2023-06-23"
+
+[build]
+command = "make build"

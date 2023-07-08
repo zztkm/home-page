@@ -9,6 +9,10 @@
 - [知ってると便利な git command の紹介](/slides/useful-git-commands-to-know)
 - [Docker で Minecraft サーバーを立てる](/slides/docker-minecraft-server)
 
+## Wasm 実験室
+
+- [Wasm Mandelbrot](/app/mandelbrot)
+
 ## Links
 - [Blog](https://blog.tsurutatakumi.info/)
 - [Twitter](https://twitter.com/zztkm)

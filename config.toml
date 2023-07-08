@@ -1,6 +1,8 @@
 title = "Veltiosoft"
 description = "Be a good hacker & darts player."
 base_url = 'https://tsurutatakumi.info/'
+# base_url = 'http://127.0.0.1:8788/'
+
 
 [build]
 ignore_files = ["README.md"]

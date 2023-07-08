@@ -7,5 +7,14 @@ setup: clean
 	tar -xvf vss_linux_amd64.tar.gz
 	cp vss_linux_amd64/vss .
 
+.PHONY: build
 build:
-	./vss build
+	vss build
+
+.PHONY: build-wasm
+build-wasm:
+	vss build --wasm
+
+.PHONY: dev
+dev:
+	wrangler pages dev dist
