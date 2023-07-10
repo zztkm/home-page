@@ -19,7 +19,7 @@ jobs:
         run: make setup
 
       - name: Build with vss
-        run: make build
+        run: make build-actions
 
       - name: Publish
         uses: cloudflare/pages-action@1

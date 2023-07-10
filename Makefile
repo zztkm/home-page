@@ -7,9 +7,13 @@ setup: clean
 	tar -xvf vss_linux_amd64.tar.gz
 	cp vss_linux_amd64/vss .
 
+.PHONY: build-actions
+build-actions:
+	./vss build
+
 .PHONY: build
 build:
-	./vss build
+	vss build
 
 .PHONY: build-wasm
 build-wasm:

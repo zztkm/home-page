@@ -3,25 +3,25 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>@title</title>
+        <title>add func</title>
         <base href="@base_url"> 
         <meta name="description" content="@description" />
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="js/tinygo_wasm_exec.js"></script>
         <!-- GOOGLE FONT IMPORT FROM CDN -->
         <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
         <!-- VIEWPORT FOR RESPONSIVE -->
         <meta name="viewport" content="width=device-width" />
     </head>
     <body>
-      <h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
-      <div x-data="{ count: 0 }">
-        <button x-on:click="count++">Increment</button>
-
- 
-        <span x-text="count"></span>
-      </div>
-      <div x-data="{ hello: 0}">
-        <button x-on:click="alert('Hello World!')">Say Hi</button>
-      </div>
+        <h1 x-data="{ message: 'wasm add' }" x-text="message"></h1>
+        <input type="number" id="num1"> +
+        <input type="number" id="num2"> =
+        <span class="result">結果</span>
+        <br>
+        <div x-data="{ hello: 0}">
+            <button x-on:click="add()">足算します</button>
+        </div>
+        <script type="module" src="js/add.js"></script>
     </body>
 </html>
