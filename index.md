@@ -12,7 +12,7 @@
 ## Wasm 実験室
 
 - [Wasm Mandelbrot](/app/mandelbrot)
-- [Wasm add function(TinyGo)](/app/mandelbrot)
+- [Wasm add function(TinyGo)](/app/add)
 
 ## Links
 - [Blog](https://blog.tsurutatakumi.info/)
